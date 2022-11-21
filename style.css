@@ -23,17 +23,22 @@ body {
     font-family: 'Outfit', sans-serif;
 }
 
-main {
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
     background-color: var(--White);
     border-radius: 2rem;
-    margin: 100px auto;
-    width: 375px;
-    padding: 2rem;
+    margin: 0 auto;
+    width: 37.5rem;
+    padding: 2rem;   
+    box-shadow: .8rem .8rem 1.6rem var(--Grayish-blue);
     text-align: center;
-    box-shadow: 8px 8px 16px var(--Grayish-blue);
 }
 
-main img {
+.app img {
     border-radius: 1.5rem;
     cursor: pointer;
     margin-bottom: 2rem;
@@ -55,14 +60,10 @@ p {
 }
 
 .attribution {
-    font-size: 11px;
+    font-size: 1.1rem;
     text-align: center;
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
-}
-
-@media (min-width: 375px){
-    
 }
