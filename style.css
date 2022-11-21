@@ -17,23 +17,22 @@
 
 body {
     background-color: var(--Light-gray);
-
     width: 100%;
     font-size: 1.6rem;
     font-family: 'Outfit', sans-serif;
+    padding: 15rem;   
 }
 
 .app {
+    padding: 2rem;   
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
     background-color: var(--White);
     border-radius: 2rem;
     margin: 0 auto;
     width: 37.5rem;
-    padding: 2rem;   
     box-shadow: .8rem .8rem 1.6rem var(--Grayish-blue);
     text-align: center;
 }
